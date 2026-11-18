@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "providers": {
+    "llm-deepseek": {
+      "route": "llm-deepseek",
+      "namespace": "llm-deepseek",
+      "revision": 0,
+      "secrets": [],
+      "maxTokens": 256000,
+      "defaultContextWindow": 1000000,
+      "models": [],
+      "streamIdleTimeoutMs": 300000,
+      "maxRequestFilesBytes": 134217728,
+      "maxInlineRequestImageBytes": 20971520,
+      "maxImagesPerRequest": 600,
+      "imageOffloadByteQuantum": 67108864,
+      "inlineImageOffloadByteQuantum": 10485760,
+      "imageOffloadCountQuantum": 20,
+      "filesApiTimeoutMs": 60000,
+      "fileExpiresAfterSeconds": 604800,
+      "fileRefreshMarginSeconds": 3600,
+      "fileQuotaCleanupBatch": 100,
+      "apiKeyEnv": "DEEPSEEK_API_KEY",
+      "raw": {
+        "maxTokens": 256000,
+        "defaultContextWindow": 1000000,
+        "models": [],
+        "streamIdleTimeoutMs": 300000,
+        "maxRequestFilesBytes": 134217728,
+        "maxInlineRequestImageBytes": 20971520,
+        "maxImagesPerRequest": 600,
+        "imageOffloadByteQuantum": 67108864,
+        "inlineImageOffloadByteQuantum": 10485760,
+        "imageOffloadCountQuantum": 20,
+        "filesApiTimeoutMs": 60000,
+        "fileExpiresAfterSeconds": 604800,
+        "fileRefreshMarginSeconds": 3600,
+        "fileQuotaCleanupBatch": 100,
+        "apiKeyEnv": "DEEPSEEK_API_KEY"
+      }
+    }
+  }
+}
